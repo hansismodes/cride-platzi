@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
 
-class UsersConfig(AppConfig):
-    name = 'users'
+class UsersAppConfig(AppConfig):
+    name = "apps.users"
+    verbose_name = "Cride"

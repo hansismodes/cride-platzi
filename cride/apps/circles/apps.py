@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-
-class CirclesConfig(AppConfig):
-    name = 'circles'
+class CirclesAppConfig(AppConfig):
+    name = "apps.circles"
+    verbose_name = "Círculos"
