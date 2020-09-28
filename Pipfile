@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+mysqlclient = "==2.0.1"
+pylint = "==2.6.0"
+argon2-cffi = "==20.1.0"
+python-slugify = "==4.0.1"
+djangorestframework = "==3.11.1"
+httpie = "==2.2.0"
+ipdb = "==0.13.3"
+django-filter = "==2.3.0"
+django-extensions = "==3.0.8"
+django-environ = "==0.4.5"
+Django = "==3.1"
+Pillow = "==7.2.0"
+PyJWT = "==1.7.1"
+
+[requires]
+python_version = "3.8"
